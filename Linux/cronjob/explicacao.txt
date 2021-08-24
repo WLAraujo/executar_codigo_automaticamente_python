@@ -1,0 +1,35 @@
+Para executar automaticamente um script usando python usamos o crontab.
+
+Para instalar o crontab use sudo apt-get install cron.
+
+Para editar o arquivo crontab que contém as instruções a serem especificadas o crontab digite crontab -e.
+
+Após digitar o comando acima vai abrir o nano e então aparecerá um texto de explicação. Nesse arquivo especificamos a execução do cron.
+
+Então, para rodar nosso programa python de teste, digitamos no arquivo que apareceu os valores de tempo e o comando a ser executado:
+* * * * * caminho_no_linux/executar_codigo_automaticamente_python/Linux/cronjob/teste.py
+
+Os asteriscos representam, em ordem, minuto, hora, dia do mes, mes, dia da semana.
+O comando acima executa a cada minuto o código python de teste.
+Quando for salvar o arquivo do crontab, cuidado para não alterara o nome do arquivo, pois caso altere o processo não funciona.
+
+Segue um bom material sobre cron e crontab: https://guialinux.uniriotec.br/crontab/
+
+Para saber se o cron está executando no momento digite: service cron status
+
+Caso o cron não esteja executando inicialize ele usando: sudo service cron start
+
+O executável cron encontra-se em /etc/init.d
+
+Para matar o processo do cron use: sudo /etc/init.d/crond stop
+
+Quando executamos o comando acima é como se estivessemos matando o processo em si.
+
+Obs: Caso você esteja utilizando o WSL, no momento que você mata o terminal, o cronjob para de rodar.
+
+
+
+
+
+
+

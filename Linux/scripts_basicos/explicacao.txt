@@ -1,0 +1,22 @@
+Crie um arquivo com extensão .sh
+
+A primeira coisa que fazemos é especificar qual shell será usado na primeira linha do arquivo:
+#!/bin/bash
+
+Exceto na primeira linha do arquivo, o símbolo # indica uma linha de comentário.
+
+Depois da primeira linha já podemos escrever os comandos que vão ser executados.
+
+Os comandos são executados na ordem das linhas.
+
+Após terminar de escrever os comandos do seu script salve-o.
+
+Para rodar o script precisamos transformá-lo num arquivo executável, para isso podemos dar permisão de execução a ele:
+chmod a+x arq_script.sh
+
+Ainda precisamos adicionar o script a algum diretório presente na variável PATH, o que permitiria rodar o script de qualquer
+diretório como um comando executável. Podemos resolver isso de três formas:
+- Adicionar o diretório à variável PATH
+- Mover o arquivo para um diretório que já esteja lá
+- Passar o caminho completo para o terminal linux (./arq_script.sh)
+
