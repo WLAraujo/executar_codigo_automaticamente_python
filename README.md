@@ -1,2 +1,2 @@
-# executar_codigo_automaticamente_python
-Nesse repositório serão colocados códigos relacionados à automação da execução de scripts python nos ambiente windows e linux através dos gerenciadores de tarefas de ambos os SOs.
+# scripts_bash
+Nesse repositório serão colocados códigos relacionados à automação de algumas tarefas no ambiente linux. São alguns exemplos simples de como usar scripts para executar tarefas no bash e de cronjob.
