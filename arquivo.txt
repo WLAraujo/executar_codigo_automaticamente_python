@@ -1,1 +1,4 @@
 Hello bash script
+Bash script
+Altera o arquivo
+Mais de uma linha

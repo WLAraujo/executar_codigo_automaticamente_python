@@ -1,0 +1,18 @@
+total 56
+drwxr-xr-x 3 wlaraujo wlaraujo 4096 out 15 21:15 .
+drwxr-xr-x 3 wlaraujo wlaraujo 4096 out 15 12:32 ..
+-rwxr-xr-x 1 wlaraujo wlaraujo   38 out 15 12:32 01_hello_script.sh
+-rwxr-xr-x 1 wlaraujo wlaraujo  171 out 15 12:32 02_comentarios.sh
+-rwxr-xr-x 1 wlaraujo wlaraujo  708 out 15 12:32 03_condicoes.sh
+-rwxr-xr-x 1 wlaraujo wlaraujo  414 out 15 12:32 04_iteracoes.sh
+-rwxr-xr-x 1 wlaraujo wlaraujo  348 out 15 20:31 05_break_continue.sh
+-rwxr-xr-x 1 wlaraujo wlaraujo  978 out 15 21:01 06_inputs.sh
+-rwxr-xr-x 1 wlaraujo wlaraujo  620 out 15 21:16 07_outputs.sh
+-rw-r--r-- 1 wlaraujo wlaraujo   12 out 15 21:15 08_pipes1.sh
+-rw-r--r-- 1 wlaraujo wlaraujo    0 out 15 21:15 08_pipes2.sh
+-rw-r--r-- 1 wlaraujo wlaraujo   12 out 15 12:32 arquivo_entrada.txt
+-rw-r--r-- 1 wlaraujo wlaraujo   64 out 15 21:02 arquivo.txt
+-rw-r--r-- 1 wlaraujo wlaraujo    0 out 15 21:17 err.txt
+drwxr-xr-x 8 wlaraujo wlaraujo 4096 out 15 12:32 .git
+-rw-r--r-- 1 wlaraujo wlaraujo    0 out 15 21:17 output.txt
+-rw-r--r-- 1 wlaraujo wlaraujo  220 out 15 12:32 README.md
