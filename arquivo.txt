@@ -1,4 +1,7 @@
 Hello bash script
 Bash script
 Altera o arquivo
-Mais de uma linha
+Mais de uma linhaTexto adicionado pelo script 14
+Texto adicionado
+linha nova
+ultima linha
